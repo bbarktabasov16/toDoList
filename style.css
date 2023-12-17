@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: rgb(226, 207, 182);
+    font-size: Preahvihear;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: -43vh;
+}
+h1 {
+    font-size: 50px;
+    color: rgb(165, 113, 45);
+    margin-bottom: 20vh;
+    margin-top: 10vh;
+}
+.input-button {
+    position: absolute;
+    margin-top: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 8.5vh;
+}
+#todoText {
+    background-color: burlywood;
+    border: none;
+    width: 20vw;
+    min-width: 300px;
+    height: 3vw;
+    min-height: 50px;
+    font-size: 19px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    color: rgb(113, 102, 88);
+}
+input:focus {
+    border: none;
+    outline: none;
+}
+button {
+    border-radius: 5px;
+    border: none;
+    height: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #383B38;
+    color: #FFF;
+    
+}
+ol li {
+    border-bottom: 2px dashed rgb(223, 180, 125);
+    font-family: Preahvihear;
+    color: #2f5663;
+}
